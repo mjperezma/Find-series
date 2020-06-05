@@ -11,10 +11,13 @@
   <body>
     <main class="container">
       <h3 class="container__title">Select your shows</h3>
+      <img class="container__img container__img--left" src="./images/claqueta.png" alt="claqueta" />
       <input type="text" name="input-title" id="js-input-title" class="search__input js-input" placeholder="Write here" />
       <button class="button js-btn">Search</button>
+
+      <img class="container__img container__img--right" src="./images/claqueta.png" alt="claqueta" />
     </main>
-    <section class="container__cards">
+    <aside class="container__cards">
       <div class="container__cards__fav">
         <h2 class="container__cards__title">Favorite shows</h2>
         <ul class="card__favourites"></ul>
@@ -24,7 +27,7 @@
         <h2 class="card__title">When you search, you can select here:</h2>
         <ul class="card js-show"></ul>
       </div>
-    </section>
+    </aside>
     <script src="./js/main.js"></script>
   </body>
 </html>
